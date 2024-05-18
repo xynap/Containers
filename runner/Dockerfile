@@ -1,4 +1,4 @@
-FROM --platform=$TARGETOS/$TARGETARCH ubuntu:22.04
+FROM --platform=$TARGETOS/$TARGETARCH ubuntu:24.04
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get upgrade -y
